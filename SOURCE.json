@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill": "software-testing-router",
+  "author_version": "1.0.1",
+  "maintenance_commit": "6ed7c54bd3a3a693e9b8833b5791eed3a60d9873",
+  "skill_tree": "d75e4346e2570156ac760bb6672a4d725a32b631",
+  "source_subdirectory": "skills/software-testing-router",
+  "public_snapshot": true,
+  "local_maintenance_history_included": false,
+  "license": "MIT"
+}

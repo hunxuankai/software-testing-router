@@ -9,7 +9,7 @@ Choose the test interface that can prove the required behavior: CLI/API, DOM, Wi
 当前版本：**1.0.1**。
 
 ```sh
-npx skills add hunxuankai/software-testing-router@v1.0.1 --skill software-testing-router
+npx skills add https://github.com/hunxuankai/software-testing-router/tree/v1.0.1/skills/software-testing-router --skill software-testing-router
 ```
 
 也可从 [GitHub Release](https://github.com/hunxuankai/software-testing-router/releases/tag/v1.0.1) 下载 `software-testing-router-1.0.1.zip`，核对 `.sha256` 后，将其中的 `software-testing-router/` 完整目录放到所用代理支持的技能目录。

@@ -6,13 +6,13 @@ Choose the test interface that can prove the required behavior: CLI/API, DOM, Wi
 
 ## 安装
 
-当前版本：**1.0.1**。
+当前版本：**1.0.2**。
 
 ```sh
-npx skills add https://github.com/hunxuankai/software-testing-router/tree/v1.0.1/skills/software-testing-router --skill software-testing-router
+npx skills add https://github.com/hunxuankai/software-testing-router/tree/v1.0.2/skills/software-testing-router --skill software-testing-router
 ```
 
-也可从 [GitHub Release](https://github.com/hunxuankai/software-testing-router/releases/tag/v1.0.1) 下载 `software-testing-router-1.0.1.zip`，核对 `.sha256` 后，将其中的 `software-testing-router/` 完整目录放到所用代理支持的技能目录。
+也可从 [GitHub Release](https://github.com/hunxuankai/software-testing-router/releases/tag/v1.0.2) 下载 `software-testing-router-1.0.2.zip`，核对 `.sha256` 后，将其中的 `software-testing-router/` 完整目录放到所用代理支持的技能目录。
 
 独立技能位于 `skills/software-testing-router/`。安装时保留该目录下的全部文件；GitHub 自动生成的整仓 Source code ZIP 与 Release 的独立技能附件范围不同。
 
@@ -33,7 +33,7 @@ Windows UIA 助手需要 Windows、Python 3.10+ 标准库、PowerShell 7 和可�
 
 ## 版本与证据
 
-本次发布加入 MIT 许可，并对三份历史证据中的本机目录做公开脱敏。原始步骤、状态、时间与数值保持不变，具体字段和哈希见 [脱敏说明](https://github.com/hunxuankai/software-testing-router/blob/main/skills/software-testing-router/references/evidence/public-redactions-1.0.1.md)。四个运行脚本保持与本地原版相同的字节。
+1.0.1 加入 MIT 许可，并对三份历史证据中的本机目录做公开脱敏。1.0.2 将两份纯文本日志改名为 .txt，以保证 GitHub 导入时保留完整证据；日志字节不变。原始步骤、状态、时间与数值保持不变，具体字段和哈希见 [脱敏说明](https://github.com/hunxuankai/software-testing-router/blob/main/skills/software-testing-router/references/evidence/public-redactions-1.0.1.md)。四个运行脚本保持与本地原版相同的字节。
 
 [验证记录](https://github.com/hunxuankai/software-testing-router/blob/main/skills/software-testing-router/references/validation.md) 说明实际样例、历史失败及恢复、环境与未覆盖范围。这些结果不保证任意生产软件适用，也没有证明相对 Computer Use 的通用加速倍数。
 

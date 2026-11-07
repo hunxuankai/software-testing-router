@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "skill": "software-testing-router",
-  "author_version": "1.0.1",
-  "maintenance_commit": "d2e09682e6c1343536ea288efbcf9b47821257df",
-  "skill_tree": "d75e4346e2570156ac760bb6672a4d725a32b631",
+  "author_version": "1.0.2",
+  "maintenance_commit": "2da5313e0e5189127b093aa7eba31a2f221b44be",
+  "skill_tree": "a8c486d7985c652e9854a0acd4cd87c52dc0265e",
   "source_subdirectory": "skills/software-testing-router",
   "public_snapshot": true,
   "local_maintenance_history_included": false,

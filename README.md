@@ -1,8 +1,10 @@
 # software-testing-router
 
-当前版本：**1.1.0**。按验收要求选择 CLI/API、DOM、Windows UIA、macOS Accessibility、Qt 内部测试或视觉证据。
+当前版本：**1.1.0**。
 
-Choose the interface that proves the required behavior: CLI/API, DOM, Windows UI Automation, macOS Accessibility, Qt tests, or visual evidence.
+按验收目标选择 CLI/API、网页 DOM、Windows UIA、macOS Accessibility、Qt 内部测试或视觉证据，提供带超时和进度日志的桌面助手。Windows 10 已有样例验证，Mac 原生实现尚未实机验证，Linux 无原生 GUI 驱动。
+
+Choose CLI/API, web DOM, Windows UIA, macOS Accessibility, Qt tests or visual evidence by required behavior. Includes scoped desktop helpers with deadlines and progress logs; macOS native helpers are not yet tested on a Mac.
 
 ## 操作系统与能力
 

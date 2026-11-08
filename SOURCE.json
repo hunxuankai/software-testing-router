@@ -7,5 +7,8 @@
   "source_subdirectory": "skills/software-testing-router",
   "public_snapshot": true,
   "local_maintenance_history_included": false,
-  "license": "MIT"
+  "license": "MIT",
+  "introduction_maintenance_commit": "8815f86ccee20c16cc861dd7df65052afb2490b7",
+  "introduction_updated_at": "2026-11-08",
+  "introduction_publishing_guide_version": "1.2.2"
 }

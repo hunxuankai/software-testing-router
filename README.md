@@ -1,6 +1,8 @@
 # software-testing-router
 
-当前版本：**1.1.0**。
+当前版本：**1.1.1**。本版补充完整概述与平台介绍，是兼容文档修正；Mac AX 执行器和按系统分发入口由 1.1.0 引入。
+
+固定版本安装与独立附件见下方 GitHub 来源。各渠道的版本、下载包、简介、概述和审核状态分别核验；安装来源和目录页面可能处于不同状态。
 
 按验收目标选择 CLI/API、网页 DOM、Windows UIA、macOS Accessibility、Qt 内部测试或视觉证据，提供带超时和进度日志的桌面助手。Windows 10 已有样例验证，Mac 原生实现尚未实机验证，Linux 无原生 GUI 驱动。
 
@@ -64,10 +66,10 @@ UIA/AX 助手实现 `set`、`invoke`、`wait`，并提供唯一控件定位、�
 ## 安装
 
 ```sh
-npx skills add https://github.com/hunxuankai/software-testing-router/tree/v1.1.0/skills/software-testing-router --skill software-testing-router
+npx skills add https://github.com/hunxuankai/software-testing-router/tree/v1.1.1/skills/software-testing-router --skill software-testing-router
 ```
 
-也可从 [GitHub Release](https://github.com/hunxuankai/software-testing-router/releases/tag/v1.1.0) 下载 `software-testing-router-1.1.0.zip`，核对 `.sha256` 后，将外层 `software-testing-router/` 完整目录安装到所用代理支持的技能目录。保留全部 scripts、references 和 agents 文件。GitHub 自动生成的整仓 Source code ZIP 与独立技能附件范围不同。
+也可从 [GitHub Release](https://github.com/hunxuankai/software-testing-router/releases/tag/v1.1.1) 下载 `software-testing-router-1.1.1.zip`，核对 `.sha256` 后，将外层 `software-testing-router/` 完整目录安装到所用代理支持的技能目录。保留全部 scripts、references 和 agents 文件。GitHub 自动生成的整仓 Source code ZIP 与独立技能附件范围不同。
 
 ## 运行要求与使用
 
@@ -87,7 +89,11 @@ Windows 可使用 `python scripts/run_desktop.py --help`；原 `run_uia.py` 入�
 
 ## 本版变化与证据
 
-新增独立 Mac 系统 API 适配器、步骤执行器与按系统分发入口。原 Windows 的四个运行脚本及历史证据字节保留。执行器核对进程身份、窗口与祖先范围、唯一目标和完整计划，保留硬超时、UTF-8 输入、原子报告及动作日志；未知动作不会自动重放。
+1.1.1 新增[完整概述](skills/software-testing-router/references/overview.md)并同步平台介绍及版本说明；八个既有运行脚本、历史证据、其他参考页与许可字节保留，测试选型规则和执行策略不变。
+
+2026-11-08 包与安装器回归 **66 通过、1 跳过、0 失败/错误，57.29 秒**；跳过为 Windows 文件 symlink 创建权限/支持不足。源码包离线校验通过：**1.1.1、41 文件、55 处本地引用**。对照 1.1.0 来源清单，40 个既有文件中 38 个字节一致，仅修改 SKILL.md 与 maintenance.md，新增 overview.md；`git diff --check` 通过。续接发行核验重跑同一包与安装器回归为 **66 通过、1 跳过、0 失败/错误，64.14 秒**。本次没有重跑交互桌面、浏览器或 Mac 原生回归；归档附件与各渠道验收另行记录。
+
+1.1.0 新增独立 Mac 系统 API 适配器、步骤执行器与按系统分发入口。原 Windows 的四个运行脚本及历史证据字节保留。执行器核对进程身份、窗口与祖先范围、唯一目标和完整计划，保留硬超时、UTF-8 输入、原子报告及动作日志；未知动作不会自动重放。
 
 维护仓库另提供统一 Python 安装器，Windows PowerShell 包装器保持兼容；这些维护工具不属于独立运行包。
 

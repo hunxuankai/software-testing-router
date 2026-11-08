@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "skill": "software-testing-router",
-  "author_version": "1.1.0",
-  "maintenance_commit": "edff6da47dfea814db42dee28aa79932bae13019",
-  "skill_tree": "b1985c327a707002e39f92995eaa90a980985214",
+  "author_version": "1.1.1",
+  "maintenance_commit": "5c89937dfe816465822bab1d056653b557a49218",
+  "skill_tree": "9c00ec88ddfc5149186f6bcf2bb14b36adeb0a6c",
   "source_subdirectory": "skills/software-testing-router",
   "public_snapshot": true,
   "local_maintenance_history_included": false,
   "license": "MIT",
-  "introduction_maintenance_commit": "8815f86ccee20c16cc861dd7df65052afb2490b7",
+  "introduction_maintenance_commit": "5c89937dfe816465822bab1d056653b557a49218",
   "introduction_updated_at": "2026-11-08",
-  "introduction_publishing_guide_version": "1.2.2"
+  "introduction_publishing_guide_version": "1.2.3"
 }
